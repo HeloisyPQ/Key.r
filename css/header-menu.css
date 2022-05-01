@@ -1,0 +1,26 @@
+.content {
+    max-width: min(112rem,90%);
+}
+
+#locker header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#locker header .menuLeft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.7rem;    
+}
+
+#locker header .menuLeft button {
+    width: 100%;
+    height: 2.3rem;
+    background: none;
+    color: none;
+    margin: 0;
+}
